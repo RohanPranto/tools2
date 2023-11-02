@@ -1,0 +1,48 @@
+.randomName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nameClass {
+  font-size: 1.5em;
+  color: #1d9ffc;
+  font-weight: 500;
+}
+
+.nc2{
+    font-style:italic;
+    font-size: 45px;
+    color: #1d9ffc;
+    font-weight: 800;
+    -webkit-text-stroke: 0.5px gray;
+}
+button {
+    background: #1d9ffc;
+    font-family: inherit;
+    padding: 0.4em 1.3em;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 0.4em;
+    box-shadow: 0.2em 0.2em;
+    color: white;
+  }
+  
+  button:hover {
+    transform: translate(-0.15em, -0.15em);
+    box-shadow: 0.35em 0.35em;
+    color: #25231b;
+    background-color: white;
+  }
+  
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+  .randomName{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.196);
+    padding: 20px;
+    padding-top: 5px;
+  }

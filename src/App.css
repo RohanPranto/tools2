@@ -1,0 +1,15 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+body {
+    margin: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  }
+  @media (max-width: 767px) {
+    .app {
+      flex-direction: column; /* Change the flex-direction for mobile view */
+    }
+  }
