@@ -36,7 +36,7 @@ export default function Home() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Dictionary</h5>
-              <p className="card-text">FInd definitions & meanings.</p>
+              <p className="card-text">Find definitions & meanings.</p>
               <Link to="/dictionary" className="btn btn-primary">Explore</Link>
             </div>
           </div>
