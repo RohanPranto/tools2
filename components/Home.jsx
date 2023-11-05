@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import '../src/App.css';
 export default function Home() {
   return (
-    <div className="container mt-1">
+    <div className="container home-container">
       <div className="row justify-content-center">
-        <div className="col-md-4 mb-4">
+        <div className="col-xs-12 col-md-4 mb-4">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Calculator</h5>
@@ -14,7 +14,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-xs-12 col-md-4 mb-4">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Age Calculator</h5>

@@ -3,7 +3,9 @@
     flex-direction: row;
     gap: 2%;
 }
-
+.home-container{
+  margin-top: 0;
+}
 body {
     margin: 0;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
@@ -11,5 +13,8 @@ body {
   @media (max-width: 767px) {
     .app {
       flex-direction: column; /* Change the flex-direction for mobile view */
+    }
+    .home-container{
+      margin-top: 40px;
     }
   }
