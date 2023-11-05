@@ -41,3 +41,12 @@ p {
   font-weight: 600;
   color: #1d9ffc;
 }
+@media screen and (max-width: 768px) {
+  .bmiDiv{
+    width: 90%;
+    margin-top: 50px;
+  }
+  .bmi_title{
+    text-align: center;
+  }
+}

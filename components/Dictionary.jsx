@@ -43,7 +43,7 @@ function Dictionary() {
         );
     }
   return (
-    <div className="px-4 py-5 my-5 text-center randomName">
+    <div className="pt-4 text-center randomName">
       <h1 className="display-5 fw-bold text-body-emphasis">
         <span id="wordName">{wordName}</span>
       </h1>{' '}

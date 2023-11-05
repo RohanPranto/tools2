@@ -46,3 +46,8 @@ button {
     padding: 20px;
     padding-top: 5px;
   }
+  @media screen and (max-width: 600px) {
+    .randomName{
+      width: 90%;
+    }
+  }
