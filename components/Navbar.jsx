@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Navbar</Link> {/* Use Link instead of anchor tag */}
+        <Link className="navbar-brand" to="/">Tools</Link> {/* Use Link instead of anchor tag */}
         <button
           className="navbar-toggler"
           type="button"
